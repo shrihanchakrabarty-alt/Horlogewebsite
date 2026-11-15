@@ -1,0 +1,134 @@
+body{
+    font-size: 20px;
+    background-color: beige;
+    font-family: cursive;
+    
+   
+
+}
+
+img {
+    margin-bottom: 50px;
+}
+
+h1 {
+    background-color:rgb(62, 58, 58) ;
+    padding: 20px;
+   margin: 33px;
+   margin-left: 330px;
+   margin-right: 330px;
+   color: whitesmoke;
+}
+li{
+
+margin-right: 100px;
+
+}
+table{
+    background-color: khaki;
+    font-size: 20px;
+}
+input{
+    font-size: 26px;
+    background-color:cornsilk;
+}
+button{
+    font-size: 26px;
+    background-color:coral;
+}
+a {
+font-family: cursive;
+color: black;
+padding: 20px 34px;
+}
+.navbar{
+    font-family: cursive;
+    background-color:rgb(62, 58, 58);
+    font-size: smaller;
+    
+
+}
+.navbar ul {
+    display: flex;  
+    gap: 2px;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+
+}
+.navbar a {
+    display: block;
+    color: whitesmoke;
+    padding: 13px 8px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.navbar a:hover {
+background-color: red ;    
+    transform: translateY(-4px);
+}
+
+.navbar a.actief { 
+    background-color:red;
+
+}
+.navbar a{
+    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease;
+
+}
+.knop{ 
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: transform 0.5s ease,​
+    box shadow 0.3s ease
+}
+.hero {
+    height: 500px;
+     background-image:url(images/elegante-marmeren-achtergrond-.avif)
+}
+
+details{
+    color: navy;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5px;
+    padding: 2px;
+    background-color:khaki;
+}
+a.dropdown{
+    position:relative;
+    color: whitesmoke;
+padding: 15px;
+    transform: translateY(-4px);
+    border-radius:6px
+    transition: transform 0.5s ease,​
+    box shadow 0.3s ease
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: red;
+    color: whitesmoke;
+    min-width: 130px;
+  box-shadow: 0px 10px 20px 0px whitesmoke;
+  padding: 5px 7px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: whitesmoke;
+
+}
+.dropdown-content input{
+    font-size:medium;
+    
+
+}
+.dropdown-content button{
+    font-size: medium;
+}
+div{
+    color: whitesmoke;
+    margin-top: 2px;
+}
